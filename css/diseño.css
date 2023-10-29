@@ -1,0 +1,42 @@
+/* Estilo del cuerpo de la carta */
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #ffecf2;
+    text-align: center;
+    background-image: url('../fotos/cielo3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Estilo del contenedor de la carta */
+.carta {
+    width: 60%;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo del título de la carta */
+h1 {
+    font-family: 'Lucida Handwriting', cursive;
+    font-size: 24px;
+    color: #ff0000;
+}
+
+/* Estilo del texto de la carta */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #000000;
+}
+
+/* Estilo de la firma */
+.firma {
+    margin-top: 20px;
+    font-family: 'Lucida Handwriting', cursive;
+    font-style: italic;
+    font-size: 18px;
+    color: #ff0000;
+}
